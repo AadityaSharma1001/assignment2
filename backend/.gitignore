@@ -1,0 +1,50 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+/src/generated/prisma
+
+/src/generated/prisma
+# Prisma
+prisma/migrations/
+prisma/dev.db
+prisma/*.sqlite
+
+# PostgreSQL
+*.pgsql
+*.pg_dump
+*.sql
+*.dump
+*.backup
+pgdata/
+postgres-data/
+data/postgres/
+
+# Node
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+.cache/
+dist/
+build/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# Docker
+*.tar
+docker-compose.override.yml
+.docker/
+.dockerignore
+
+# GraphQL
+*.graphqls
+*.graphql
+*.gql
+schema.graphql
+schema.gql
+generated/
+__generated__/
