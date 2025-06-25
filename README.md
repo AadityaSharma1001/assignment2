@@ -38,7 +38,7 @@ PORT=4000
 
 ### 4. Start Database with Docker
 ```bash
-docker-compose up -d db
+docker-compose up --build -d
 ```
 
 ### 5. Setup Database Schema
